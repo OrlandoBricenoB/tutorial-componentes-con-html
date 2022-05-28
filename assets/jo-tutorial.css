@@ -1,0 +1,29 @@
+/*
+  * Este es un archivo para embellecer el resultado final del tutorial.
+*/
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/rubik.ttf');
+  font-display: auto
+}
+
+body {
+  color: #070a2b;
+  font-family: 'Rubik'
+}
+
+h1 {
+  padding-left: 1rem
+}
+
+hr {
+  margin-bottom: 1.5rem;
+  border-top: 1px solid #c9c9c9;
+  border-bottom: none;
+  width: calc(100% - 2rem)
+}
+
+.container > p {
+  font-size: 1.25rem;
+}
