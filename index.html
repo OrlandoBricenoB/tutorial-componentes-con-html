@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Componentes con HTML y CSS</title>
+  <link rel="stylesheet" href="./assets/normalize.min.css">
+  <link rel="stylesheet" href="./assets/jo-tutorial.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <!-- CONTAINERS TITLE -->
+  <h1>Containers</h1>
+  <hr>
+  <!-- END CONTAINERS TITLE -->
+
+  <!-- CONTAINERS -->
+  <div class="containers">
+    <!-- CONTAINER -->
+    <div class="container" style="height: 200px">
+      <p>Contenedor normal</p>
+    </div>
+    <!-- END CONTAINER -->
+  
+    <!-- CONTAINER WITH SHADOW -->
+    <div class="container container--shadow" style="height: 100px">
+      <p>Contenedor con sombra</p>
+    </div>
+    <!-- END CONTAINER WITH SHADOW -->
+  
+    <!-- CONTAINER WITH SHADOW DARKNESS -->
+    <div class="container container--darkness" style="height: 200px">
+      <p>Contenedor oscuro</p>
+    </div>
+    <!-- END CONTAINER WITH SHADOW DARKNESS -->
+  </div>
+  <!-- END CONTAINERS -->
+
+  <!-- BUTTONS TITLE -->
+  <h1>Botones</h1>
+  <hr>
+  <!-- END BUTTONS TITLE -->
+
+  <!-- BUTTONS -->
+  <div class="btn-group">
+    <!-- BUTTON -->
+    <div class="btn onClick-openModal">
+      Abrir modal
+    </div>
+    <!-- BUTTON -->
+
+    <!-- BUTTON ERROR -->
+    <div class="btn btn--error">
+      Cancelar
+    </div>
+    <!-- END BUTTON ERROR -->
+
+    <!-- BUTTON DISABLED -->
+    <div class="btn btn--disabled ">
+      Desactivado
+    </div>
+    <!-- END BUTTON DISABLED -->
+  </div>
+  <!-- END BUTTONS -->
+
+  <!-- MODAL -->
+  <div class="modal">
+    <div class="modal__background"></div>
+    <div class="modal__container container">
+      <div class="modal__information">
+        <h3>
+          Me pregunto si leerás esto...
+        </h3>
+        <p class="modal__information-paragraph">
+          Si lees esto te invito a suscribirte al canal de Youtube de Jo-Sword.
+        </p>
+      </div>
+      <div class="modal__actions">
+        <div class="btn btn--secondary onClick-ignore">Ignorar</div>
+        <div class="btn onClick-confirm">Acepto el reto</div>
+      </div>
+    </div>
+  </div>
+  <!-- END MODAL -->
+
+  <!-- SCRIPTS -->
+  <script src="./script.js"></script>
+  <!-- END SCRIPTS -->
+</body>
+</html>
