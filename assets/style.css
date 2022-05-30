@@ -89,6 +89,10 @@
   background-color: #a4bdc299
 }
 
+.btn--disabled:active {
+  transform: scale(1)
+}
+
 /*
   # Modal
 */
